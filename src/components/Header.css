@@ -1,0 +1,17 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}
+.leftHeaderItem{
+    cursor: pointer; 
+}
+.rightHeaderItem{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+}
