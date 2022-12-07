@@ -6,19 +6,24 @@ import UserIcon from "../cbImages/userIcon.png"
 
 const Header = () => {
   return (
+    <div className='headerWrapper'>
     <div className='headerContainer'>
         <div className='leftHeaderItem'>
-            <img src={LogoImage} alt="Header Image" />
+            <img src={LogoImage} alt="Header logo"  />
         </div>
         <div className='rightHeaderItem'>
-            <div>
+            <div className='classCourse'>
                 All Your Courses & Classes
             </div>
             <div>
-                <img src={UserIcon} alt="Header Image" />
+                <img src={UserIcon} alt="Header userIcon" />
             </div>
-        </div>
-        
+        </div>  
+    </div>
+    <div className='hrLine'>
+        <hr />
+    </div>
+
     </div>
   )
 }

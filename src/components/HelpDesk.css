@@ -1,0 +1,15 @@
+.helpDeskContentWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+}
+.leftContent{
+    display: flex;
+    flex-direction: column;
+}
+.rightContent{
+    display: flex;
+    flex-direction: column;
+}

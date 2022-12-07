@@ -1,3 +1,6 @@
+.headerWrapper{
+    align-items: center;
+}
 .headerContainer{
     display: flex;
     align-items: center;
@@ -14,4 +17,11 @@
     cursor: pointer;
     display: flex;
     gap: 20px;
+}
+.classCourse{
+    color: #039be5;
+    font-size: 14px;
+}
+.hrLine{
+
 }
